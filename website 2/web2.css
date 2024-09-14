@@ -1,0 +1,96 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background: url(img.jpeg);
+    /* background-repeat: no-repeat; */
+
+}
+
+.div {
+    /* border: 2px solid red; */
+    position: fixed;
+    display: inline-block;
+    left: 22px;
+    top: 12px;
+
+}
+
+.div1 {
+    display: block;
+    width: 39%;
+    margin: 2px auto;
+    /* border: 2px solid rgb(2, 2, 2); */
+    margin-top: 12px;
+    font-size: 22px;
+    position: sticky;
+}
+
+.div2 {
+    /* border: 2px solid green; */
+    padding: 2px 6px;
+    display: inline-block;
+    position: fixed;
+    right: 22px;
+    top: 12px;
+    top: 12px;
+}
+
+.header img {
+    height: 93px;
+    width: 93px;
+    padding: 2px 6px;
+
+}
+
+.header li {
+    float: left;
+    list-style: none;
+}
+
+.header ul {
+    overflow: auto;
+}
+
+.header li a {
+    text-decoration: none;
+    padding: 0px 26px;
+    cursor: pointer;
+    color: rgb(41, 0, 189);
+}
+
+.header li a:hover {
+    text-decoration: underline;
+    font-size: 20px;
+    color: red;
+}
+
+.header li a:active {
+    text-decoration: underline;
+    font-size: 20px;
+    color: red;
+}
+
+.header li a:visited {
+    /* text-decoration: none;
+    font-size: 20px; */
+    color: rgb(83, 7, 73);
+}
+
+.btn {
+    cursor: pointer;
+    /* font-weight: bold; */
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding: 3px 15px;
+    border-radius: 15px;
+}
+
+.about {
+    border: 2px solid red;
+    width: 33%;
+    padding: 13px 66px;
+    float: left;
+    margin-top: 212px;
+    margin-left: 112px;
+    border-radius: 10px;
+}
